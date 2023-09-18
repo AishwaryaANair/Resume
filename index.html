@@ -20,7 +20,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.css" rel="stylesheet">
+   <link rel="stylesheet" id="theme-style" href="resume_dark.css">
 
 </head>
 
@@ -38,13 +38,15 @@
 
       <nav>
         <ul>
+          <li><a href="#about">About Me</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#skills">Publication</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#volunteer">Volunteering</a></li>
           <li><a href="#awards">Extracurriculars</a></li>
           <li><a href="./Aishwarya_Nair_CV.pdf">CV</a></li>
+          <li><a href="./Aishwarya_Nair_Resume.pdf">Resume</a></li>
         </ul>
       </nav>
 
@@ -64,11 +66,9 @@
           <p>Email: anair [AT_SYM] umass [DOT_SYM] edu</p>
         </div>
         <p class="lead mb-5">
-          I am an artificial intelligence enthusiast looking to get more knowledge and make connections in the field. 
-          I can speak 6 languages (English, Hindi, Spanish, Malayalam, Marathi and some Korean) and love to play basketball, football
-          and other sports. I can play the piano but I am a bit rusty due to the lack of practice.
-          Do not hesitate to  connect with me on LinkedIn or drop me an email. I would be happy to respond to queries
-          or have a chat.  
+          Grad student @ UMass Amherst looking to mainly combine Artificial Intelligence and other areas of computer science,
+          like UI/UX design, cloud and IOT.
+
         </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/aishwarya-nair-601988181/">
@@ -82,10 +82,44 @@
     </section>
 
     <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="about-me">
+      <div class="w-100">
+        <h2>About me</h2>
 
+            <ul>
+
+              <li>
+                My fascination with AI artificial intelligence began
+                during my undergraduate studies in computer science at VESIT.
+                Over the years, I've had the privilege of working on cutting-edge machine learning projects,
+                from developing predictive models to using morphological analysis and dependency trees to craft
+                an algorithm to divide clauses.
+            <li>
+               I'm an advocate for pushing the boundaries
+              of AI technology to enhance human lives, whether through
+              safer transportation or assisting individuals with disabilities.
+              My project called ASSIST elaborates more about the same <a href = #assist> here </a>
+            </li>
+            <li>
+              My hobbies include reading, playing basketball and running.
+            </li>
+            <li>
+              I can speak 6 languages (English, Spanish, Hindi, Marathi, Malayalam and some
+              Korean that I picked up by watching a lot of their variety shows). So, according to my
+              calculations (which may very well be wrong when you're reading this) I can speak to 1.504 billion
+              people, which constitutes to about 20% of the world population.
+            </li>
+            <li>
+              I can play the piano, but I am rusty due to the lack of practice.
+            </li>
+            </ul>
+          </div>
+
+        </div>
+        <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2>Experience</h2>
+        <h2>Work Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
@@ -95,12 +129,13 @@
               <span class="text-primary">September 2021 - August 2023 </span>
             </div>
             <ul>
-            <li>
-            Created a lexical framework of 22 different emotions
-            expressed by consumers of snacks for a Fortune 50 company using PyTorch, 
+
+              <li>
+            Designed a lexical framework of 22 different emotions
+            expressed by consumers of snacks for PepsiCo using PyTorch,
             Python and Google Colab.
-            These 22 emotions include reminiscence, amazement, sluggish, etc.
-            </li>
+            These 22 emotions include reminiscence, amazement, sluggish and more.
+              </li>
             <li>
               Supervised a team of 12 for data creation and management for the project
               to identify emotions in text evoked from snacks.
@@ -118,8 +153,16 @@
               Deployed fine tuned models on Amazon Web Services (AWS) as REST API using Flask and Python.
             </li>
             <li>
-              Created an algorithm to separate out clauses from sentences using morphological analysis
+              Developed an algorithm to separate out clauses from sentences using morphological analysis
               and dependency trees using Python, Google Colab and Google Cloud Natural Language API.
+            </li>
+              <li>
+             Developed a prompt based framework to use GPT models to automate the ontology designed
+                process resulting in faster deployment of vertical based analytics.
+            </li>
+              <li>
+                Deployed an API to train and test GPT models to improve accuracy of the pre-existing models by
+                2% on average, resulting in more robust predictions and faster metric generation for clients.
             </li>
             </ul>
           </div>
@@ -183,7 +226,22 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2>Education</h2>
-
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Massachusetts Amherst</h3>
+             <div class="subheading mb-1">Manning College of Information and Computer Sciences</div>
+            <div class="subheading mb-1">Masters in Science in Computer Science</div>
+            <div class="resume-date text-md-left">
+              <span class="text-primary">September 2023 - July 2025 (Expected)</span>
+            </div>
+            <div class="subheading">GPA: N/A</div>
+            <ul>
+              <li>
+                Course work includes STAT 501 (Methods of Applied Statistics),
+                COMPSCI 589 (Machine Learning) and COMPSCI 684 (Reinforcement Learning)
+              </li>
+            </ul>
+          </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">V.E.S. Institute of Technology (VESIT), Mumbai</h3>
@@ -281,7 +339,7 @@
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">ASSIST (Assistive Smart Stick For Independent and Safe Travel)</h3>
+            <h3 class="mb-0" id = "assist">ASSIST (Assistive Smart Stick For Independent and Safe Travel)</h3>
             <div class="subheading">Team Leader</div>
             <div><a href = "https://github.com/AishwaryaANair/ASSIST-EYIC-19-20">Link to repository</a></div>
             <div class="resume-date text-md-left">
@@ -413,7 +471,7 @@
               <span class="text-primary">August 2017 - June 2018</span>
             </div>
             <ul>
-              <li>Created teams among first year Information Technology students to participate in various sporting
+              <li>Organized sports teams among first year Information Technology students to participate in various sporting
               events
               </li>
               <li>
