@@ -181,6 +181,7 @@ ul {
   margin-top: 0;
   line-height: 1;
   margin-bottom: 10px;
+  padding-left: 1%;
 }
 
 @media only screen and (max-width: 766px) {
@@ -273,7 +274,6 @@ nav ul a {
   max-width: 2000px;
   margin: 0 auto;
   position: relative;
-  padding-left: 3%;
 }
 
 .tooltip {
