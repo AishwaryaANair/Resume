@@ -205,8 +205,6 @@ nav {
 nav ul {
   list-style: none;
   overflow: hidden;
-  text-align: right;
-  float: right;
 }
 
 @media only screen and (max-width: 766px) {
